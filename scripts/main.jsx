@@ -47,7 +47,6 @@ MarvelSearch.Views.SearchBox = React.createClass({
         var searchIcon = this.props.searchIcon ? <i className="fa fa-search fa-lg"></i> : <i className="fa fa-circle-o-notch fa-lg fa-spin"></i>;
         return (
             <div className="search-box-wrapper">
-                <p><img src="http://img-cache.cdn.gaiaonline.com/0670820d13e411d50038e9b8b189def8/http://i278.photobucket.com/albums/kk109/Crazyknot/Marvel-Logo.png" /></p>
                 <div className="marvel-attribution">
                     <p>Data provided by Marvel. © 2014 Marvel</p>
                 </div>
@@ -93,7 +92,7 @@ MarvelSearch.Views.CharacterListItem = React.createClass({
                 </div>
                 <div className="list-details">
                     <h4 className="list-item-title">{this.props.data.name}</h4>
-                    <p className="list-item-desription">{this.ellipsis(this.props.data.description, 200)}</p>
+                    <p className="list-item-desription">{this.ellipsis(this.props.data.description, 180)}</p>
                     <p className="list-item-link"><a href={url} target="_blank">{url ? 'Details' : null}</a></p>
                 </div>
             </li>
