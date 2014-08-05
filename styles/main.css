@@ -48,7 +48,28 @@ body {
     width: 100%;
 }
 
+.hide {
+    display: none;
+}
+
 /* Search Form */
+
+.search-box-wrapper {
+    color: #fff;
+    font-size: 12px;
+
+}
+
+.search-box-wrapper span {
+    position: relative;
+}
+
+.search-box-wrapper span i {
+    position: absolute;
+    font-size: 16px;
+    left: -24px;
+    line-height: 50px;
+}
 
 .search-box-wrapper form {
     width: 60%;
@@ -60,6 +81,7 @@ body {
     background: #d8232a;
     float: left;
     padding-left: 10px;
+    font-size: 16px;
     width: 80%;
     height: 50px;
     color: #fff;
