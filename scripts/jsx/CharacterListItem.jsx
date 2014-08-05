@@ -15,9 +15,9 @@ MarvelSearch.Views.CharacterListItem = React.createClass({
     },
     findLink: function(data) {
         var link = '';
-        $.each(data, function(index) {
-            if (data[index].type === 'wiki') {
-                link = data[index];
+        data.forEach(function(ele) {
+            if (ele.type === 'wiki') {
+                link = ele;
             }
         });
         return link;
