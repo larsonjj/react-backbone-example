@@ -3,6 +3,8 @@ React-Backbone-Example
 
 An small application that displays marvel character results based on user input using React and Backbone.
 
+***NOTE:*** Should be run on a server, as the JSXTransformer uses AJAX to convert JSX files into JavaScript
+
 ## Libraries used
 - [React](http://facebook.github.io/react/index.html) (JSX Syntax)
 - [Backbone](http://backbonejs.org/)
